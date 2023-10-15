@@ -11,17 +11,13 @@
 
 To get started with the Sylius project, you can follow these steps:
 
-0. **Clone this repository**: Please clone this repository first of all.
-
-1. **Docker Installation (Optional)**: If you have Docker installed, you can use it to set up the project. If not, you can perform a simple Composer install.
-
-    - Using Docker:
-        - Clone the project repository.
-        - Navigate to the project directory.
-        - Run `docker-compose up -d` to start the containers.
-        - Wait some minutes. During that you can check the containers what is happening exactly. (It will run the composer install command, etc.)
-        - You can use the `bin/console sylius:install` command if it will be necessary. You can create a new admin user for this command.
-        - You should now have the project accessible at http://localhost.
+1. **Docker Installation**: If you have Docker installed, you can use it to set up the project.
+    - Clone the project repository.
+    - Navigate to the project directory.
+    - Run `docker-compose up -d` to start the containers.
+    - Wait some minutes. During that you can check the containers what is happening exactly. (It will run the composer install command, etc.)
+    - You can use the `bin/console sylius:install` command if it will be necessary. You can create a new admin user for this command.
+    - You should now have the project accessible at http://localhost.
 
 2. **Environment Configuration**: Ensure that you have set up the necessary environment variables, such as your database connection details. Refer to the project's documentation for specific configuration details.
 
